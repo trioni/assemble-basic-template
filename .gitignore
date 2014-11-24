@@ -12,6 +12,3 @@ node_modules/
 
 # Bower
 vendor/
-
-# Build source
-dist/

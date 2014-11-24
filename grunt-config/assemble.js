@@ -8,7 +8,7 @@ module.exports = function( grunt ) {
         // Read the config for the assemble task
         options:{
             flatten:true,
-            assets: './',
+            assets: '<%= assemblePaths.dist %>/assets',
             prettify: {indent: 2},
             postprocess: require('pretty'),
 

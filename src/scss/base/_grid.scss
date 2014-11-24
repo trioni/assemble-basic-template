@@ -1,0 +1,9 @@
+.outer-container {
+  max-width: $page-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.-padded {
+  padding: $gutter;
+}

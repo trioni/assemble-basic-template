@@ -46,7 +46,7 @@ module.exports = function( grunt ) {
     grunt.registerTask('svg', [
         'svgmin' // minify the svgs
     ]);
-    grunt.registerTask('js',['requirejs']);
+    grunt.registerTask('js',['uglify']);
     grunt.registerTask('default',['css','js','html']);
 
 };

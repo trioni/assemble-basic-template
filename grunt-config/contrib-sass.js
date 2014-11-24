@@ -7,7 +7,7 @@ module.exports = function( grunt ) {
                 //require: 'susy'
             },
             files: {
-                'styles/css/main.css': 'styles/scss/main.scss'
+                'dist/assets/css/main.css': 'src/scss/main.scss'
             }
         }
     });
