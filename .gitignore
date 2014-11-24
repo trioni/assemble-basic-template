@@ -1,0 +1,17 @@
+# OSX generated file
+.DS_Store
+
+# PhpStorm project files
+.idea/
+
+# Node modules
+node_modules/
+
+# SASS cache
+.sass-cache/
+
+# Bower
+vendor/
+
+# Build source
+dist/

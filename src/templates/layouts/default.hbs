@@ -1,0 +1,27 @@
+---
+lang: en
+pageClass: page
+---
+<!DOCTYPE html>
+<html lang="{{lang}}" class="no-js">
+<head>
+    {{> head }}
+</head>
+<body{{#if bodyclass}} class="{{bodyclass}}"{{/if}}>
+
+{{> skiplinks }}
+
+{{> pagehead }}
+
+<main role="main" class="{{default pageClass page.pageClass}}">
+    <div class="outer-container -padded">
+        {{> body }}
+    </div>
+</main>
+
+{{> footer }}
+
+<!-- JS and analytics only. -->
+{{> javascripts }}
+</body>
+</html>

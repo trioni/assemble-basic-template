@@ -1,0 +1,30 @@
+$bp-narrow: 30em; //480px;
+$bp-xsmall: 34.375em; // 550px
+$bp-small: 47.9375em; //768px = 48em; //767px = 47.9375em
+$bp-medium: 58.75em; //940px;
+$bp-large: 74.25em; //73.125 = 1170; 74,25 = 1188
+
+body:before {
+  content: 'mobile';
+  display: none;
+
+  @include mq('min', $bp-narrow) {
+    content: 'narrow';
+  }
+
+  @include mq('min', $bp-xsmall) {
+    content: 'xsmall';
+  }
+
+  @include mq('min', $bp-small) {
+    content: 'small';
+  }
+
+  @include mq('min', $bp-medium) {
+    content: 'medium';
+  }
+
+  @include mq('min', $bp-large) {
+    content: 'large';
+  }
+}

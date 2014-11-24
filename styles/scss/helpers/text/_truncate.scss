@@ -1,0 +1,6 @@
+// Make sure you add a width or other kinds of size regulations
+%truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
